@@ -1,5 +1,7 @@
 /* header and navigation styles */
-
+*{  margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
 
 nav{
     display: flex;
@@ -95,3 +97,104 @@ nav li{
 .text-danger{
     color: #fd6e0a;
 }
+/* feature love & enjoy */
+.feature{
+    display: flex;
+    margin: 50px 150px;
+}
+.feature-enjoy img{
+    width: 500px;
+    height: 800px;
+    margin-left: 150px;
+}
+.feature-content{
+   
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    margin-top: 10px;
+    padding: 20px 20px;
+    border-radius: 5px;
+}
+.feature-content p{
+    color: #757575;
+}
+.secondary-text{
+    color: #FFFFFF;
+    background:  #fd6e0a;;
+    padding: 40px 36px;
+    border-radius: 8px;
+    font-size: 40px;
+    font-weight: 700;
+    border: 1px solid  #fd6e0a;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+.pink-text{
+    font-size: 20px;
+}
+/* some fact */
+.fact-sub-title{
+    margin-left: 180px;
+    margin-top: 150px;
+}
+.fact-sub-title h4{
+   font-size: 35px;
+   
+}
+.fact-sub-title p{
+   color: #757575;
+   padding-bottom: 100px;
+}
+.fact-container{
+    display:  flex;
+    gap: 80px;
+   justify-content: center;
+}
+.facts{
+    border: 1px solid #fd6e0a;
+    padding: 20px 30px;
+    /* margin-top: 10px; */
+    margin-bottom: 40px;
+    
+}
+.facts h2{
+   margin-bottom: 20px;
+}
+.facts p{
+
+}
+/* sponsor styles */
+.logo-title{
+    text-align: center;
+    margin-top: 100px;
+}
+.logo-title h2{
+    font-size: 35px;
+    margin-top: 10px;
+}
+.logo-title p{
+    color: #757575;
+}
+.sponsor-sub-title{
+    display: flex;
+    gap:40px;
+    justify-content: center;
+    margin-top: 80px;
+    
+}
+.sponsor-title{
+  padding-bottom: 100px;
+  
+
+}
+.copyright{
+    width: 1000px;
+    height: 80px;
+    background: #FFF4E7;
+   border-radius: 8px;
+   margin-left: 200px;
+   margin-bottom: 50px;
+}
+.copyright p{
+    text-align: center;
+    padding-top: 30px;
+} 
