@@ -36,17 +36,15 @@ nav li{
 
 .btn-primary{
     color: #FFFFFF;
-    background: rgba(255, 166, 0, 0.847);
+    background:  #fd6e0a;;
     padding: 12px 22px;
     border-radius: 8px;
     font-size: 16px;
     font-weight: 700;
-    border: 1px solid rgba(255, 166, 0, 0.847);
+    border: 1px solid  #fd6e0a;;
 }
 
-.banner-sub-title{
-   
-}
+
 .banner-sub-title img{
     width: 1000px;
     height: 500px;
@@ -63,16 +61,37 @@ nav li{
 }
 
 /* image and features styles */
+
 .features-title{
    
-    margin-top: 50px;
-    margin-left: 150px;
-    
+    margin-top: 60px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+.feature-icon{
+    display: flex;
 }
 .sub-title{
-    width: 10px;
-    height: 10px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+}
+.feature-list{
+    margin-left: 70px;
+    margin-top: 120px;
+}
+.feature-list h2{
+  font-size: 35px;
+  color: #918686d0;
+}
+.feature-list p{
+    color: #757575;
+    padding-bottom: 10px;
+
+}
+.text-primary{
+    color: black;
+}
+.text-danger{
+    color: #fd6e0a;
 }
